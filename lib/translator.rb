@@ -7,7 +7,7 @@ def load_library(file_path)
   library = {}
   library["get_emoticon"] = {}
   library["get_meaning"] = {}
-  binding.pry
+  # binding.pry
   library
 end
 
