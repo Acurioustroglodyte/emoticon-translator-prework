@@ -2,7 +2,7 @@
 require 'pry'
 require 'yaml'
 
-# emoticons = YAML.load_file('emoticons.yml')
+emoticons = YAML.load_file('./emoticons.yml')
 binding.pry
 
 def load_library
