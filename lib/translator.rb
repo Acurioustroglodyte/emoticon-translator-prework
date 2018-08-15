@@ -5,6 +5,7 @@ require 'yaml'
 def load_library(file_path)
   emoticons = YAML.load_file(file_path)
   library = {}
+  binding.pry
   library["get_emoticon"] = emoticons.values
   library["get_meaning"] = emoticons.keys
   library
